@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+body {
+  overflow-x: hidden;
+  background: rgb(12, 12, 12);
+/* background: linear-gradient(90deg, rgba(17,16,16,1) 0%, rgba(27,27,27,1) 37%, rgba(27,27,27,1) 48%, rgba(27,27,27,1) 55%, rgba(27,27,27,1) 61%, rgba(28,28,28,1) 68%, rgba(31,31,31,1) 100%); */
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
