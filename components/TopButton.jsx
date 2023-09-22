@@ -5,9 +5,6 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const TopButton = () => {
   const ref = useRef();
-  window.onscroll = () => {
-    scrollFun();
-  };
 
   const scrollFun = () => {
     if (
@@ -21,6 +18,8 @@ const TopButton = () => {
       ref.current.style.display = "none";
     }
   };
+
+  window.addEventListener("scroll", scrollFun);
 
   return (
     <button

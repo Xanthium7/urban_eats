@@ -112,11 +112,17 @@ const Image_slider = () => {
           </div>
         </div>
         <div className="relative">
-          <Image
+          {/* <Image
             className={`lg:h-[30vh] h-[20vh]  object-cover  transition-all`}
             width={500}
             height={300}
             src="/assets/f4.jpg"
+          /> */}
+          <img
+            className={`lg:h-[30vh] h-[20vh]  object-cover  transition-all`}
+            // width={500}
+            // height={300}
+            src="https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=1600"
           />
           <div
             className={`lg:h-[30vh] h-[20vh] w-[500px] absolute top-0 left-0 bottom-0 opacity-0 z-10 bg-black hover:opacity-80 transition-all flex justify-center items-center `}
@@ -129,11 +135,11 @@ const Image_slider = () => {
           </div>
         </div>
         <div className="relative">
-          <Image
+          <img
             className={`lg:h-[30vh] h-[20vh]  object-cover  transition-all`}
-            width={500}
-            height={300}
-            src="/assets/f5.jpg"
+            // width={500}
+            // height={300}
+            src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1600"
           />
           <div
             className={`lg:h-[30vh] h-[20vh] w-[500px] absolute top-0 left-0 bottom-0 opacity-0 z-10 bg-black hover:opacity-80 transition-all flex justify-center items-center `}
@@ -146,11 +152,17 @@ const Image_slider = () => {
           </div>
         </div>
         <div className="relative">
-          <Image
+          {/* <Image
             className={`lg:h-[30vh] h-[20vh]  object-cover  transition-all`}
             width={500}
             height={300}
             src="/assets/f8.png"
+          /> */}
+          <img
+            className={`lg:h-[30vh] h-[20vh]  object-cover  transition-all`}
+            // width={500}
+            // height={300}
+            src="https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1600"
           />
           <div
             className={`lg:h-[30vh] h-[20vh] w-[500px] absolute top-0 left-0 bottom-0 opacity-0 z-10 bg-black hover:opacity-80 transition-all flex justify-center items-center `}
