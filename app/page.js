@@ -1,7 +1,7 @@
 import Nav from "@/components/Nav";
 import Image from "next/image";
 import { Roboto, Dancing_Script } from "next/font/google";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+// import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 import About from "@/components/About";
 import Link from "next/link";
@@ -49,7 +49,7 @@ export default function Home() {
           </h1>
         </div>
         <a href="#about">
-          <KeyboardArrowDownIcon className="text-white text-5xl absolute bottom-[0px] z-10 right-[50%] left-[50%] mx-auto mt-20 lg:animate-bounce hidden md:hi lg:block " />
+          {/* <KeyboardArrowDownIcon className="text-white text-5xl absolute bottom-[0px] z-10 right-[50%] left-[50%] mx-auto mt-20 lg:animate-bounce hidden md:hi lg:block " /> */}
         </a>
       </main>
 

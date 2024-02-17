@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
+// import MenuIcon from "@mui/icons-material/Menu";
 
 import { Dancing_Script } from "next/font/google";
 
@@ -59,7 +59,7 @@ const Nav = () => {
             console.log(navState);
           }}
         >
-          <MenuIcon className="hover:cursor-pointer text-white  lg:hidden mr-5 " />
+          {/* <MenuIcon className="hover:cursor-pointer text-white  lg:hidden mr-5 " /> */}
         </a>
 
         <div
