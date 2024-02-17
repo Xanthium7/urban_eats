@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 // import MenuIcon from "@mui/icons-material/Menu";
 
 import { Dancing_Script } from "next/font/google";
@@ -18,13 +19,8 @@ const Nav = () => {
     <nav class=" z-30   absolute  w-screen   " id="nav">
       <div class="max-w-screen flex flex-wrap items-center bg-gradient-to-b from-[#000000f9] via-[#00000087] to-[#00000000]  justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
-          <img
-            src="/assets/logo.png"
-            class="contrast-100 h-8 md:h-9 lg:h-10 mr-3 opacity-100"
-            alt="Flowbite Logo"
-          />
           <span
-            className={`${dance.className} font-bold self-center text-lg  whitespace-nowrap dark:text-white`}
+            className={`${dance.className} font-bold self-center text-xl  whitespace-nowrap dark:text-white`}
           >
             URBAN EATS
           </span>
@@ -59,6 +55,7 @@ const Nav = () => {
             console.log(navState);
           }}
         >
+          <AiOutlineMenu className="hover:cursor-pointer text-white  lg:hidden mr-5 " />
           {/* <MenuIcon className="hover:cursor-pointer text-white  lg:hidden mr-5 " /> */}
         </a>
 

@@ -59,6 +59,7 @@ const Image_slider = () => {
         Specials
       </h2>
       <hr className="mx-16 my-2 mb-6 border-gray-700 lg:mx-[30rem] lg:my-3 lg:mb-10" />
+
       <Slider {...settings}>
         <div className="relative">
           <Image
